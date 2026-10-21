@@ -1,6 +1,6 @@
-# 人物Skill SKILL.md 模板
+# Mẫu (template) SKILL.md cho Skill nhân vật
 
-Phase 3 构建时，读取此模板填充内容。
+Khi dựng ở Phase 3, đọc mẫu (template) này để điền nội dung.
 
 ---
 
