@@ -129,6 +129,21 @@ Tạo xong thì gọi thẳng:
 > Chuyển sang Naval, tôi đang phân vân giữa ba việc
 ```
 
+### Bản fork này: skill `goc-nhin`
+
+Fork tiếng Việt có thêm `goc-nhin/`: bóc tách một vấn đề bằng 2–3 góc nhìn khác nhau từ các skill `*-perspective` đã cài, rồi tổng hợp chỗ đồng ý / mâu thuẫn / việc làm ngay.
+
+```bash
+ln -s ~/nuwa-skill ~/.claude/skills/nuwa-skill
+ln -s ~/nuwa-skill/goc-nhin ~/.claude/skills/goc-nhin
+for d in ~/nuwa-skill/examples/*/; do ln -s "${d%/}" ~/.claude/skills/; done
+```
+
+```
+> Bóc tách vấn đề: có nên bỏ việc để làm app riêng không?
+> Đổi góc nhìn: chuyện này Munger với Taleb sẽ nói gì?
+```
+
 ---
 
 ## Nữ Oa chưng cất gì
